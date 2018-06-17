@@ -62,8 +62,10 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 /*content*/
 .cover{
 	background-color:white;
+	text-align: center;
 }
 .data{
+	display: inline-block;
 	background-color:white;
 	font-family: Bookman, Verdana, sans-serif;
 	max-width:1200px;
