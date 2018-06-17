@@ -8,11 +8,11 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 .top
 {
 	background-color:rgba(33,150,243,0.7);
-	height:7%;
+	height:5%;
 	position:fixed;
 	width:100%;
 	z-index:2;
-	
+
 }
 .top .logo{
 	max-width:200px;
@@ -29,7 +29,7 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 	height:200px;
 }
 .main img{
-	position:absolute;	
+	position:absolute;
 	z-index:-9999999;
 	margin-top:-200px;
 }
@@ -42,7 +42,7 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 	color:white;
 	font-family: Bookman, Verdana, sans-serif;
 	max-width:100%;
-	
+
 }
 .bluehighlight h1{
 	text-transform: uppercase;
@@ -57,7 +57,7 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 	margin-left: 20%;
 	background-color:#FFDF00;
 	padding:2px;
-	
+
 }
 .bluehighlight a:link{
 	color:#2d62b7;
@@ -88,7 +88,7 @@ article{
 	padding-top: 20px;
 	padding-bottom:20px;
 	text-align:center;
-	
+
 }
 
 article img{
