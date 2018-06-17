@@ -52,22 +52,12 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 }
 .bluehighlight a{
 	display: inline-block;
-	text-decoration:none;
 	margin: 2px;
 	margin-left: 20%;
-	background-color:#FFDF00;
-	padding:2px;
-
 }
-.bluehighlight a:link{
-	color:#2d62b7;
-}
-.bluehighlight a:visited{
-	color:#2d62b7;
-}
-.bluehighlight a:hover{
-	transition: background-color 0.3s ease-out;
-	background-color:#f4b342
+.bluehighlight > .call-to-action {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 /*content*/
 .cover{
@@ -79,6 +69,34 @@ header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
 	max-width:1200px;
 	margin: 0 auto;
 }
+
+.btn {
+  background: #f2cf1f;
+  background-image: -webkit-linear-gradient(top, #f2cf1f, #d6b307);
+  background-image: -moz-linear-gradient(top, #f2cf1f, #d6b307);
+  background-image: -ms-linear-gradient(top, #f2cf1f, #d6b307);
+  background-image: -o-linear-gradient(top, #f2cf1f, #d6b307);
+  background-image: linear-gradient(to bottom, #f2cf1f, #d6b307);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #474747;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e8e82e;
+  background-image: -webkit-linear-gradient(top, #e8e82e, #d6cf49);
+  background-image: -moz-linear-gradient(top, #e8e82e, #d6cf49);
+  background-image: -ms-linear-gradient(top, #e8e82e, #d6cf49);
+  background-image: -o-linear-gradient(top, #e8e82e, #d6cf49);
+  background-image: linear-gradient(to bottom, #e8e82e, #d6cf49);
+  text-decoration: none;
+}
+
 article{
 	display: inline-block;
 	background-color:white;
