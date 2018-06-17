@@ -1,0 +1,135 @@
+/*RESET STYLES*/
+header, body, footer, h1, p, ul, ol, li,a, img, section, h2{
+	padding:0;
+	border:0;
+	margin:0;
+}
+/*Nav bar thingy*/
+.top
+{
+	background-color:rgba(33,150,243,0.7);
+	height:7%;
+	position:fixed;
+	width:100%;
+	z-index:2;
+	
+}
+.top .logo{
+	max-width:200px;
+	padding:8px;
+}
+.top .bars{
+	display:inline-block;
+	width:30px;
+    padding: 15;
+	float:right;
+}
+/* picture and highlight*/
+.main{
+	height:200px;
+}
+.main img{
+	position:absolute;	
+	z-index:-9999999;
+	margin-top:-200px;
+}
+.bluehighlight{
+	display:block;
+	padding:5px;
+	margin-top:150px;
+	background-color:rgba(33,150,243,1.0);
+	z-index:5;
+	color:white;
+	font-family: Bookman, Verdana, sans-serif;
+	max-width:100%;
+	
+}
+.bluehighlight h1{
+	text-transform: uppercase;
+}
+.bluehighlight h1, .bluehighlight p{
+	margin-left:20px;
+}
+.bluehighlight a{
+	display: inline-block;
+	text-decoration:none;
+	margin: 2px;
+	margin-left: 20%;
+	background-color:#FFDF00;
+	padding:2px;
+	
+}
+.bluehighlight a:link{
+	color:#2d62b7;
+}
+.bluehighlight a:visited{
+	color:#2d62b7;
+}
+.bluehighlight a:hover{
+	transition: background-color 0.3s ease-out;
+	background-color:#f4b342
+}
+/*content*/
+.cover{
+	background-color:white;
+}
+.data{
+	background-color:white;
+	font-family: Bookman, Verdana, sans-serif;
+	max-width:1200px;
+	margin: 0 auto;
+}
+article{
+	display: inline-block;
+	background-color:white;
+	margin: 0 auto;
+	width: 304px;
+	padding:0 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align:center;
+	
+}
+
+article img{
+	border: 2px solid rgba(33,150,243,1.0);
+}
+article h2{
+	font-size:24px;
+	padding:5px 0;
+}
+/*footer*/
+footer{
+	background-color:#d3d3d3;
+	font-family: Bookman, Verdana, sans-serif;
+}
+.footcont{
+	max-width: 1000px;
+	margin:0 auto;
+	padding:30px 5px;
+	font-size:12px;
+}
+/*responsive design*/
+@media screen and (max-width: 800px){
+	.bluehighlight{
+		margin-left:10%;
+	}
+}
+@media screen and (max-width: 1130px){
+	.main img{
+		margin-top:0;
+	}
+}
+
+@media screen and (max-width: 715px){
+	.main img{
+		display:none;
+	}
+	.bluehighlight{
+			margin-left:0;
+			margin-top:-50px;
+	}
+	article{
+		margin-left: 10%;
+	}
+}
